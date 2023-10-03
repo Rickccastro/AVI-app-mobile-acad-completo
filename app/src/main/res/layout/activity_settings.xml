@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/gradient_background"
+        tools:context=".SettingsActivity">
+
+        <Spinner
+            android:id="@+id/spinnerExerciseType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/exercise_types"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupSpeedUnit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Velocidade" />
+
+            <RadioButton
+                android:id="@+id/radioButtonKmph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="km/h"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonMps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="m/s"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orientação" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroupMapOrientation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonNone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nenhuma" />
+
+            <RadioButton
+                android:id="@+id/radioButtonNorthUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="North Up" />
+
+            <RadioButton
+                android:id="@+id/radioButtonCourseUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course Up" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mapa" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroupMapType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonVector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vetorial" />
+
+            <RadioButton
+                android:id="@+id/radioButtonSatellite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Satélite" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onSaveButtonClick"
+                android:text="Salvar" />
+        </RadioGroup>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
