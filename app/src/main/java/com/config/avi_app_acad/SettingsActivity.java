@@ -37,6 +37,7 @@ public class SettingsActivity extends AppCompatActivity {
         speedUnitRadioGroup.check(savedSpeedUnit);
         mapOrientationRadioGroup.check(savedMapOrientation);
         mapTypeRadioGroup.check(savedMapType);
+
     }
 
     public void onSaveButtonClick(View view) {

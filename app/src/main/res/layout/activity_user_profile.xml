@@ -17,19 +17,19 @@
             android:id="@+id/editTextSex"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Sexo"/>
+            android:hint="@string/sex"/>
 
         <EditText
             android:id="@+id/editTextWeight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Peso"/>
+            android:hint="@string/peso"/>
 
         <EditText
             android:id="@+id/editTextHeight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Altura"/>
+            android:hint="@string/alt"/>
 
         <DatePicker
             android:id="@+id/datePicker"
@@ -39,7 +39,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salvar"
+            android:text="@string/save"
             android:onClick="onSaveButtonClick"/>
     </LinearLayout>
 

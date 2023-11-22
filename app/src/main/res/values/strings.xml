@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">AVI-app-acad</string>
+    <string name="name_perfil">Perfil do Usuário</string>
+    <string name="name_config">Configurações</string>
+    <string name="name_credits">Créditos</string>
+    <string name="dev_names">Feito por: Ricardo Parmezan de Almeida Castro e Windson Carlos Pionório Teixeira Filho</string>
+    <string name="name_vel">Velocidade</string>
+    <string name="name_orient">Orientação</string>
+    <string name="name_dir">Norte</string>
+    <string name="name_pont">Ponteiro para cima</string>
+    <string name="map">Mapa</string>
+    <string name="vet">Vetorial</string>
+    <string name="sat">Satélite</string>
+    <string name="save">Salvar</string>
+    <string name="sex">Sexo</string>
+    <string name="peso">Peso</string>
+    <string name="alt">Altura</string>
+    <string name="map_content_description">Mapa</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDLQjlrOsqDJSW4EOmcAgBl2tB33-rGagQ</string>
 </resources>

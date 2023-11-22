@@ -29,7 +29,7 @@
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Velocidade" />
+                android:text="@string/name_vel" />
 
             <RadioButton
                 android:id="@+id/radioButtonKmph"
@@ -47,7 +47,7 @@
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Orientação" />
+                android:text="@string/name_orient" />
         </RadioGroup>
 
         <RadioGroup
@@ -65,19 +65,19 @@
                 android:id="@+id/radioButtonNorthUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="North Up" />
+                android:text="@string/name_dir" />
 
             <RadioButton
                 android:id="@+id/radioButtonCourseUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Course Up" />
+                android:text="@string/name_pont" />
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Mapa" />
+                android:text="@string/map" />
         </RadioGroup>
 
         <RadioGroup
@@ -89,19 +89,19 @@
                 android:id="@+id/radioButtonVector"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Vetorial" />
+                android:text="@string/vet" />
 
             <RadioButton
                 android:id="@+id/radioButtonSatellite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Satélite" />
+                android:text="@string/sat" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onSaveButtonClick"
-                android:text="Salvar" />
+                android:text="@string/save" />
         </RadioGroup>
     </LinearLayout>
 

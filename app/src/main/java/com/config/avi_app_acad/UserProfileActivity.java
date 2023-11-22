@@ -37,6 +37,7 @@ public class UserProfileActivity extends AppCompatActivity {
             calendar.setTimeInMillis(savedDate);
             datePicker.updateDate(calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
         }
+
     }
 
     public void onSaveButtonClick(View view) {
@@ -52,6 +53,6 @@ public class UserProfileActivity extends AppCompatActivity {
 
         editor.apply();
 
-        Toast.makeText(this, "Perfil do usuário salvo com sucesso!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Perfil do usuário salvo", Toast.LENGTH_SHORT).show();
     }
 }

@@ -14,11 +14,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     public void openUserProfile(View view) {
 
         Intent intent = new Intent(this, UserProfileActivity.class);
+        startActivity(intent);
+    }
+
+    public void openUserMap(View view) {
+
+        Intent intent = new Intent(this,MonitorarExercicio.class);
         startActivity(intent);
     }
 

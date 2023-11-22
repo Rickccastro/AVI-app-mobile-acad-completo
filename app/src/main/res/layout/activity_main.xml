@@ -21,13 +21,19 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Perfil do Usuário"
+            android:text="@string/name_perfil"
             android:onClick="openUserProfile"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Configurações"
+            android:text="Monitorar Exercicio"
+            android:onClick="openUserMap"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_config"
             android:onClick="openSettings"/>
 
 
@@ -35,7 +41,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Créditos"
+            android:text="@string/name_credits"
             android:onClick="openCredits"/>
     </LinearLayout>
 
